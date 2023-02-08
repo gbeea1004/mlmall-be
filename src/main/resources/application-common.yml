@@ -1,0 +1,13 @@
+# actuator
+management:
+  endpoints:
+    web:
+      base-path: "/monitor"
+      path-mapping:
+        health: "/l7check"
+        info: "/info"
+      exposure:
+        include: "health,info"
+  health:
+    db:
+      enabled: false

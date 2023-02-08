@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    include: common
+  datasource:
+    driver-class-name:
+    url:
+    username:
+    password:
